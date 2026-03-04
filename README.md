@@ -14,14 +14,14 @@ AI skills for the [Indigo Protocol](https://indigoprotocol.io) on Cardano — ma
 ## Quick Start
 
 ```bash
-npx @3rd-eye-labs/indigo-skills
+npx @indigoprotocol/indigo-skills
 ```
 
 Or install specific skills:
 
 ```bash
-npx @3rd-eye-labs/indigo-skills --skill cdp-management
-npx @3rd-eye-labs/indigo-skills --all
+npx @indigoprotocol/indigo-skills --skill cdp-management
+npx @indigoprotocol/indigo-skills --all
 ```
 
 ## Installation
@@ -30,13 +30,13 @@ npx @3rd-eye-labs/indigo-skills --all
 
 ```bash
 # Interactive selection
-npx @3rd-eye-labs/indigo-skills
+npx @indigoprotocol/indigo-skills
 
 # Install all skills
-npx @3rd-eye-labs/indigo-skills --all
+npx @indigoprotocol/indigo-skills --all
 
 # Target specific agent
-npx @3rd-eye-labs/indigo-skills --agent cursor
+npx @indigoprotocol/indigo-skills --agent cursor
 ```
 
 ### Manual Setup

@@ -53,3 +53,8 @@ Get collector UTXOs for fee distribution.
 
 - [IPFS Storage](sub-skills/ipfs-storage.md) — Store and retrieve data on IPFS
 - [Collector](sub-skills/collector.md) — Query collector UTXOs for fee distribution
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Concepts](references/concepts.md) — IPFS content addressing and collector fee distribution

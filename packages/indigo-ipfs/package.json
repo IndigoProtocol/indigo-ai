@@ -4,7 +4,7 @@
   "description": "IPFS & Collector skill for Indigo Protocol",
   "keywords": ["indigo", "ipfs", "collector", "cardano", "skills"],
   "type": "module",
-  "files": ["SKILL.md", "sub-skills", "README.md"],
+  "files": ["SKILL.md", "sub-skills", "references", "README.md"],
   "license": "MIT",
   "repository": {
     "type": "git",

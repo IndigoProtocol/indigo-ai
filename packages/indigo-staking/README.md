@@ -36,6 +36,11 @@ Requires the Indigo MCP server:
 }
 ```
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [Staking Concepts](references/concepts.md) — INDY staking, rewards, governance
+
 ## License
 
 MIT — 3rd Eye Labs

@@ -17,8 +17,11 @@ iAsset Prices & Data skill for Indigo Protocol.
 - **Asset Prices** (`sub-skills/asset-prices.md`) — Query iAsset prices and details for iUSD, iBTC, iETH, iSOL
 - **Token Prices** (`sub-skills/token-prices.md`) — Query ADA and INDY token prices
 
-## Installation
+## References
 
-```
-npx @indigoprotocol/indigo-assets
-```
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [Asset Concepts](references/concepts.md) — iAssets, oracles, pricing
+
+## License
+
+MIT

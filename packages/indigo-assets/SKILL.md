@@ -21,3 +21,8 @@ Query real-time prices and data for Indigo Protocol iAssets (iUSD, iBTC, iETH, i
 
 - [Asset Prices](sub-skills/asset-prices.md) — Query iAsset prices and details
 - [Token Prices](sub-skills/token-prices.md) — Query ADA and INDY token prices
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Asset Concepts](references/concepts.md) — iAssets, oracles, INDY token, and interest rates

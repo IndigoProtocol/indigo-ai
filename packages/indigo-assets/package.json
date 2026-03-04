@@ -1,0 +1,14 @@
+{
+  "name": "@indigoprotocol/indigo-assets",
+  "version": "0.1.0",
+  "description": "iAsset Prices & Data skill for Indigo Protocol",
+  "keywords": ["indigo", "iassets", "prices", "cardano", "skills"],
+  "type": "module",
+  "files": ["SKILL.md", "sub-skills", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/indigo-ai.git",
+    "directory": "packages/indigo-assets"
+  }
+}

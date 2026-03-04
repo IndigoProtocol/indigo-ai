@@ -1,0 +1,17 @@
+{
+  "name": "@3rd-eye-labs/indigo-skills",
+  "version": "0.1.0",
+  "description": "Install Indigo AI skills for AI agents — CDPs, stability pools, staking, and DeFi on Cardano",
+  "keywords": ["indigo", "skills", "defi", "cardano", "ai-agents", "cdp", "staking"],
+  "type": "module",
+  "bin": {
+    "indigo-skills": "./bin/indigo-skills.mjs"
+  },
+  "files": ["bin"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/indigo-ai.git",
+    "directory": "packages/indigo-skills"
+  }
+}

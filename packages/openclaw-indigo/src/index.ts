@@ -3,7 +3,7 @@
  *
  * Indigo Protocol integration for the OpenClaw platform.
  * Provides CDP management, price alerts, and portfolio tracking
- * through Telegram and Discord.
+ * through Telegram, Discord, and Slack.
  */
 
 export interface OpenClawIndigoConfig {
@@ -42,3 +42,28 @@ export function createPlugin(config: OpenClawIndigoConfig) {
     features: FEATURES,
   };
 }
+
+// Commands
+export {
+  cdpCommands,
+  priceCommands,
+  stakingCommands,
+  portfolioCommands,
+} from "./commands/index.js";
+
+// Alerts
+export {
+  priceAlerts,
+  cdpAlerts,
+  stakingAlerts,
+  type PriceAlertConfig,
+  type CDPAlertConfig,
+  type StakingAlertConfig,
+} from "./alerts/index.js";
+
+// Formatters
+export {
+  formatCDPMessage,
+  formatPriceMessage,
+  formatPortfolioMessage,
+} from "./formatters/index.js";

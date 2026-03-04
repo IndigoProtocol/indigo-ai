@@ -1,21 +1,77 @@
 # Indigo AI Skills
 
-AI skills for the [Indigo Protocol](https://indigoprotocol.io) on Cardano.
+AI skills for the [Indigo Protocol](https://indigoprotocol.io) on Cardano — manage CDPs, stability pools, staking, and DeFi operations through AI agents.
 
-## Structure
-
-```
-packages/          # npm workspace packages
-.claude-plugin/    # Claude plugin discovery manifest
-.github/workflows/ # CI/CD pipelines
-marketplace.json   # skills.sh marketplace listing
-```
-
-## Development
+## Quick Start
 
 ```bash
-npm install
+npx @3rd-eye-labs/indigo-skills
 ```
+
+Or install specific skills:
+
+```bash
+npx @3rd-eye-labs/indigo-skills --skill cdp-management
+npx @3rd-eye-labs/indigo-skills --all
+```
+
+## Installation
+
+### Via CLI Installer
+
+```bash
+# Interactive selection
+npx @3rd-eye-labs/indigo-skills
+
+# Install all skills
+npx @3rd-eye-labs/indigo-skills --all
+
+# Target specific agent
+npx @3rd-eye-labs/indigo-skills --agent cursor
+```
+
+### Manual Setup
+
+Add the Indigo MCP server to your agent configuration:
+
+```json
+{
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}
+```
+
+## Skills Overview
+
+| Skill | Description | MCP Tools |
+|-------|-------------|-----------|
+| CDP Management | Open, close, deposit, withdraw, mint, burn CDPs | `open_cdp`, `close_cdp`, `deposit_cdp`, `withdraw_cdp`, `mint_cdp`, `burn_cdp` |
+| Stability Pools | Manage stability pool accounts | `create_sp_account`, `adjust_sp_account`, `close_sp_account` |
+| Staking | INDY staking positions | `open_staking_position`, `adjust_staking_position`, `close_staking_position` |
+| Price Feeds | Asset prices and protocol stats | `get_asset_price`, `get_ada_price`, `get_indy_price` |
+| DEX Integration | Token swaps via SteelSwap | `get_steelswap_tokens`, `get_steelswap_estimate` |
+| Governance | Temperature checks and polls | `get_temperature_checks`, `get_polls` |
+
+## Workspace Structure
+
+```
+packages/           # npm workspace packages
+  indigo-skills/    # CLI installer
+templates/          # Agent configuration templates
+.claude-plugin/     # Claude plugin discovery manifest
+.github/workflows/  # CI/CD pipelines
+marketplace.json    # skills.sh marketplace listing
+```
+
+## Links
+
+- [Indigo Protocol](https://indigoprotocol.io)
+- [Indigo MCP Server](https://github.com/IndigoProtocol/indigo-mcp)
+- [Indigo Protocol Documentation](https://docs.indigoprotocol.io)
 
 ## License
 

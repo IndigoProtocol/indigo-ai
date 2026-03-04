@@ -27,3 +27,8 @@ Manage Stability Pool positions on the Indigo Protocol.
 - [Pool Queries](sub-skills/sp-query.md) — Pool state, accounts, owner lookup
 - [Pool Management](sub-skills/sp-manage.md) — Create, adjust, close accounts
 - [Request Processing](sub-skills/sp-requests.md) — Process and cancel requests
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Stability Pool Concepts](references/concepts.md) — Pool mechanics, rewards, and request lifecycle

@@ -21,6 +21,11 @@ Stability Pool skill for the Indigo Protocol on Cardano.
 - **Pool Management** — create, adjust, close accounts
 - **Request Processing** — process and cancel requests
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [Stability Pool Concepts](references/concepts.md) — pool mechanics, rewards, pending requests
+
 ## License
 
 MIT

@@ -4,7 +4,7 @@
   "description": "Stability Pool skill for Indigo Protocol",
   "keywords": ["indigo", "stability-pool", "defi", "cardano", "skills"],
   "type": "module",
-  "files": ["SKILL.md", "sub-skills", "README.md"],
+  "files": ["SKILL.md", "sub-skills", "references", "README.md"],
   "license": "MIT",
   "repository": {
     "type": "git",

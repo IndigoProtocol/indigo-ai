@@ -1,0 +1,14 @@
+{
+  "name": "@indigoprotocol/shared",
+  "version": "0.1.0",
+  "description": "Shared formatting utilities for Indigo Protocol plugins",
+  "type": "module",
+  "main": "src/index.ts",
+  "files": ["src", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/indigo-ai.git",
+    "directory": "packages/shared"
+  }
+}

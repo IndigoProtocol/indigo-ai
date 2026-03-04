@@ -1,0 +1,16 @@
+{
+  "name": "indigo-ipfs",
+  "displayName": "Indigo IPFS & Collector Skills",
+  "description": "IPFS storage and collector UTxO management",
+  "version": "0.1.0",
+  "skills": [
+    "sub-skills/ipfs-storage",
+    "sub-skills/collector"
+  ],
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

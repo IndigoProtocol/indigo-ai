@@ -1,0 +1,17 @@
+{
+  "name": "indigo-staking",
+  "displayName": "Indigo INDY Staking Skills",
+  "description": "Stake INDY, manage positions, claim rewards",
+  "version": "0.1.0",
+  "skills": [
+    "sub-skills/staking-query",
+    "sub-skills/staking-manage",
+    "sub-skills/staking-rewards"
+  ],
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

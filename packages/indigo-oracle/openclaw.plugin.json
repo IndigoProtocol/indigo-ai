@@ -1,0 +1,15 @@
+{
+  "name": "indigo-oracle",
+  "displayName": "Indigo Oracle Skills",
+  "description": "Interest oracle operations (operators only)",
+  "version": "0.1.0",
+  "skills": [
+    "sub-skills/interest-oracle"
+  ],
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

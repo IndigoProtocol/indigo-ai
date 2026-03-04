@@ -1,0 +1,17 @@
+{
+  "name": "indigo-stability",
+  "displayName": "Indigo Stability Pool Skills",
+  "description": "Manage stability pool deposits, accounts, and request processing",
+  "version": "0.1.0",
+  "skills": [
+    "sub-skills/sp-query",
+    "sub-skills/sp-manage",
+    "sub-skills/sp-requests"
+  ],
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

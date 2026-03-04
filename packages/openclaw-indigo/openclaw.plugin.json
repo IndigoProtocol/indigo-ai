@@ -1,0 +1,14 @@
+{
+  "name": "openclaw-indigo",
+  "displayName": "OpenClaw Indigo Plugin",
+  "description": "Full Indigo Protocol integration for OpenClaw - manage CDPs, staking, and more from Telegram",
+  "version": "0.1.0",
+  "entry": "src/index.ts",
+  "skills": [],
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

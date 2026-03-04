@@ -1,0 +1,17 @@
+{
+  "name": "indigo-redemption",
+  "displayName": "Indigo Redemption & LRP Skills",
+  "description": "Order book, redemption queue, LRP position management",
+  "version": "0.1.0",
+  "skills": [
+    "sub-skills/order-book",
+    "sub-skills/redemption-queue",
+    "sub-skills/lrp-manage"
+  ],
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

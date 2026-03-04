@@ -1,0 +1,17 @@
+{
+  "name": "indigo-governance",
+  "displayName": "Indigo Governance Skills",
+  "description": "Protocol params, polls, temperature checks, sync status",
+  "version": "0.1.0",
+  "skills": [
+    "sub-skills/protocol-params",
+    "sub-skills/polls",
+    "sub-skills/sync-status"
+  ],
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

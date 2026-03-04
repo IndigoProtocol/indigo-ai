@@ -5,5 +5,17 @@
   "author": "3rd Eye Labs",
   "repository": "https://github.com/3rdEyeLabs/indigo-ai",
   "license": "MIT",
-  "packages": "packages/*"
+  "skills": [
+    "./packages/indigo-cdp/SKILL.md",
+    "./packages/indigo-stability/SKILL.md",
+    "./packages/indigo-staking/SKILL.md",
+    "./packages/indigo-assets/SKILL.md",
+    "./packages/indigo-analytics/SKILL.md",
+    "./packages/indigo-governance/SKILL.md",
+    "./packages/indigo-redemption/SKILL.md",
+    "./packages/indigo-dex/SKILL.md",
+    "./packages/indigo-oracle/SKILL.md",
+    "./packages/indigo-ipfs/SKILL.md",
+    "./packages/openclaw-indigo/SKILL.md"
+  ]
 }

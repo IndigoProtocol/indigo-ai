@@ -1,3 +1,8 @@
+---
+name: indigo-stability
+description: Manage Stability Pool positions on the Indigo Protocol.
+---
+
 # Indigo Stability Pools
 
 Manage Stability Pool positions on the Indigo Protocol.

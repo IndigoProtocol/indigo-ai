@@ -1,3 +1,8 @@
+---
+name: indigo-analytics
+description: Query TVL, protocol statistics, APR rewards, and DEX yield data for the Indigo Protocol.
+---
+
 # Protocol Analytics
 
 Query TVL, protocol statistics, APR rewards, and DEX yield data for the Indigo Protocol on Cardano.

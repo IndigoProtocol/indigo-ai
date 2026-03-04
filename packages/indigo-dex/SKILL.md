@@ -1,3 +1,8 @@
+---
+name: indigo-dex
+description: Interact with decentralized exchanges on Cardano through the Indigo Protocol ecosystem.
+---
+
 # DEX Integration
 
 Skill for interacting with decentralized exchanges on Cardano through the Indigo Protocol ecosystem. Query available tokens, get swap estimates via SteelSwap, explore Iris liquidity pools, and check wallet balances via Blockfrost.

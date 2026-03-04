@@ -1,3 +1,8 @@
+---
+name: indigo-governance
+description: Query Indigo Protocol governance data including protocol parameters, polls, and sync status.
+---
+
 # Governance & Params
 
 Query Indigo Protocol governance data including protocol parameters, temperature checks, polls, and chain sync status.

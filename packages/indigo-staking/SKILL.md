@@ -1,3 +1,8 @@
+---
+name: indigo-staking
+description: Query and manage INDY token staking positions on Indigo Protocol.
+---
+
 # INDY Staking
 
 Query and manage INDY token staking positions on Indigo Protocol. View staking info, browse positions, and open, adjust, or close staking positions.

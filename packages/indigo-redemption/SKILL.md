@@ -1,3 +1,8 @@
+---
+name: indigo-redemption
+description: Manage redemptions and Limited Redemption Protocol (LRP) positions on Indigo Protocol.
+---
+
 # Indigo Redemption & LRP
 
 Skill for managing redemptions and Limited Redemption Protocol (LRP) positions on Indigo Protocol.

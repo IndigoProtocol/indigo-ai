@@ -4,7 +4,7 @@
   "description": "CDP & Loan Management skill for Indigo Protocol",
   "keywords": ["indigo", "cdp", "defi", "cardano", "skills"],
   "type": "module",
-  "files": ["SKILL.md", "sub-skills", "README.md"],
+  "files": ["SKILL.md", "sub-skills", "references", "README.md"],
   "license": "MIT",
   "repository": {
     "type": "git",

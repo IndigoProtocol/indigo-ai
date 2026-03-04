@@ -1,0 +1,9 @@
+{
+  "name": "indigo-ai",
+  "displayName": "Indigo AI Skills",
+  "description": "AI skills for the Indigo Protocol on Cardano",
+  "author": "3rd Eye Labs",
+  "repository": "https://github.com/3rdEyeLabs/indigo-ai",
+  "license": "MIT",
+  "packages": "packages/*"
+}

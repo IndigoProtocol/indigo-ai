@@ -1,0 +1,10 @@
+{
+  "name": "@3rdeyelabs/indigo-ai",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Indigo AI Skills monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT"
+}

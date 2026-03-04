@@ -1,0 +1,14 @@
+{
+  "name": "@indigoprotocol/indigo-ipfs",
+  "version": "0.1.0",
+  "description": "IPFS & Collector skill for Indigo Protocol",
+  "keywords": ["indigo", "ipfs", "collector", "cardano", "skills"],
+  "type": "module",
+  "files": ["SKILL.md", "sub-skills", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/indigo-ai.git",
+    "directory": "packages/indigo-ipfs"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@indigoprotocol/indigo-dex",
+  "version": "0.1.0",
+  "description": "DEX Integration skill for Indigo Protocol",
+  "keywords": ["indigo", "dex", "steelswap", "cardano", "skills"],
+  "type": "module",
+  "files": ["SKILL.md", "sub-skills", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/indigo-ai.git",
+    "directory": "packages/indigo-dex"
+  }
+}

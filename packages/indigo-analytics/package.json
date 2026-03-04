@@ -4,7 +4,7 @@
   "description": "Protocol Analytics skill for Indigo Protocol",
   "keywords": ["indigo", "analytics", "tvl", "cardano", "skills"],
   "type": "module",
-  "files": ["SKILL.md", "sub-skills", "README.md"],
+  "files": ["SKILL.md", "sub-skills", "references", "README.md"],
   "license": "MIT",
   "repository": {
     "type": "git",

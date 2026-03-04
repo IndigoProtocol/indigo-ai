@@ -22,3 +22,8 @@ Query TVL, protocol statistics, APR rewards, and DEX yield data for the Indigo P
 - [TVL & Stats](sub-skills/tvl-stats.md) — Total value locked and protocol statistics
 - [APR Rewards](sub-skills/apr-rewards.md) — APR reward rates for pools
 - [DEX Yields](sub-skills/dex-yields.md) — DEX yield data for iAsset pairs
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Analytics Concepts](references/concepts.md) — TVL, APR/APY, pool types, and data sources

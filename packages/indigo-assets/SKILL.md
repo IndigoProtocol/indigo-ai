@@ -1,3 +1,8 @@
+---
+name: indigo-assets
+description: Query real-time prices and data for Indigo Protocol iAssets, ADA, and INDY tokens.
+---
+
 # iAsset Prices & Data
 
 Query real-time prices and data for Indigo Protocol iAssets (iUSD, iBTC, iETH, iSOL), ADA, and INDY tokens.

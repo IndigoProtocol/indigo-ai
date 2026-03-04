@@ -1,3 +1,8 @@
+---
+name: indigo-cdp
+description: Manage Collateralized Debt Positions (CDPs) on the Indigo Protocol.
+---
+
 # Indigo CDP & Loan Management
 
 Manage Collateralized Debt Positions (CDPs) on the Indigo Protocol.

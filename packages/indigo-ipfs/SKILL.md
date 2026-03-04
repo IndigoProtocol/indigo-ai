@@ -1,3 +1,8 @@
+---
+name: indigo-ipfs
+description: Store and retrieve data on IPFS and query collector UTXOs for the Indigo Protocol.
+---
+
 # Indigo IPFS & Collector
 
 Store and retrieve data on IPFS and query collector UTXOs for the Indigo Protocol on Cardano.

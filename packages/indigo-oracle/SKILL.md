@@ -1,3 +1,8 @@
+---
+name: indigo-oracle
+description: Manage the Indigo Protocol interest oracle for feeding rate data.
+---
+
 # Oracle Operations — Indigo Protocol
 
 Manage the Indigo Protocol interest oracle. This skill covers feeding new interest rate data and initializing new interest oracles.

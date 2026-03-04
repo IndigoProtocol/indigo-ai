@@ -1,3 +1,8 @@
+---
+name: openclaw-indigo
+description: Indigo Protocol integration for OpenClaw with CDP management, price alerts, and portfolio tracking.
+---
+
 # OpenClaw Indigo Plugin
 
 Indigo Protocol integration for the OpenClaw platform. Enables CDP management, price alerts, and portfolio tracking through Telegram, Discord, and Slack.

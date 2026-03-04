@@ -20,6 +20,11 @@ Manage the Indigo Protocol interest oracle. This skill covers feeding new intere
 
 - [Interest Oracle](sub-skills/interest-oracle.md) — Feed data to and start the interest oracle
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Oracle Concepts](references/concepts.md) — Interest rates, bias time, oracle operators
+
 ## Supported iAssets
 
 The oracle tools support the following iAssets: iUSD, iBTC, iETH, iSOL.

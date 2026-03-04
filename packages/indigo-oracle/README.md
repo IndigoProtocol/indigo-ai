@@ -23,6 +23,11 @@ Oracle Operations skill for the Indigo Protocol on Cardano.
 npm install @indigoprotocol/indigo-oracle
 ```
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [Oracle Concepts](references/concepts.md) — interest rates, bias time, oracle operators
+
 ## License
 
 MIT

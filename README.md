@@ -1,3 +1,12 @@
+```
+██╗███╗   ██╗██████╗ ██╗ ██████╗  ██████╗
+██║████╗  ██║██╔══██╗██║██╔════╝ ██╔═══██╗
+██║██╔██╗ ██║██║  ██║██║██║  ███╗██║   ██║
+██║██║╚██╗██║██║  ██║██║██║   ██║██║   ██║
+██║██║ ╚████║██████╔╝██║╚██████╔╝╚██████╔╝
+╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝ ╚═════╝  ╚═════╝
+```
+
 # Indigo AI Skills
 
 AI skills for the [Indigo Protocol](https://indigoprotocol.io) on Cardano — manage CDPs, stability pools, staking, and DeFi operations through AI agents.

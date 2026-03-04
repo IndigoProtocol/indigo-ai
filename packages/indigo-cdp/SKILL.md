@@ -36,3 +36,8 @@ Manage Collateralized Debt Positions (CDPs) on the Indigo Protocol.
 - [CDP Health](sub-skills/cdp-health.md) — Analyze health, liquidation risk
 - [Liquidation](sub-skills/cdp-liquidation.md) — Liquidate, redeem, freeze, merge
 - [Leverage](sub-skills/cdp-leverage.md) — Leveraged CDP via LRP
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [CDP Concepts](references/concepts.md) — Collateral ratios, liquidation, iAssets, and more

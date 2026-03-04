@@ -30,6 +30,11 @@ CDP & Loan Management skill for the Indigo Protocol on Cardano.
 - **Liquidation** — liquidate, redeem, freeze, merge
 - **Leverage** — leveraged CDP via LRP
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [CDP Concepts](references/concepts.md) — collateral ratios, liquidation mechanics, iAssets
+
 ## License
 
 MIT

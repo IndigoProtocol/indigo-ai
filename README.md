@@ -54,6 +54,59 @@ Add the Indigo MCP server to your agent configuration:
 }
 ```
 
+## Agent Configuration
+
+Configuration templates for popular AI coding agents are available in the `templates/` directory.
+
+### Claude Code
+
+Add to your `.claude/config.json`:
+
+```json
+{
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}
+```
+
+### Cursor
+
+Add to your `.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}
+```
+
+### Windsurf
+
+Add to your `.windsurf/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}
+```
+
+### OpenClaw
+
+See `templates/openclaw/SKILL.md` for the skill definition file.
+
 ## Skills Overview
 
 | Skill | Description | MCP Tools |

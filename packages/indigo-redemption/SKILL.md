@@ -36,3 +36,8 @@ npx @indigoprotocol/indigo-mcp
 - [Order Book](sub-skills/order-book.md) — Query LRP order book and redemption orders
 - [Redemption Queue](sub-skills/redemption-queue.md) — Aggregated redemption queue per iAsset
 - [LRP Management](sub-skills/lrp-manage.md) — Open, cancel, adjust, claim, and redeem LRP positions
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Redemption Concepts](references/concepts.md) — LRP mechanics, order book, and redemption queue

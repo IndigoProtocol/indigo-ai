@@ -34,6 +34,11 @@ npm install @indigoprotocol/indigo-redemption
 - Node.js 20+
 - `@indigoprotocol/indigo-mcp` server running
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [Redemption Concepts](references/concepts.md) — LRP mechanics, order book, redemption queue
+
 ## License
 
 MIT

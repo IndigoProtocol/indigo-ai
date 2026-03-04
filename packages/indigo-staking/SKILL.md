@@ -25,3 +25,8 @@ Query and manage INDY token staking positions on Indigo Protocol. View staking i
 - [Staking Queries](sub-skills/staking-query.md) — Query staking info and positions
 - [Staking Management](sub-skills/staking-manage.md) — Open, adjust, and close positions
 - [Staking Rewards](sub-skills/staking-rewards.md) — Distribute staking rewards
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Staking Concepts](references/concepts.md) — INDY staking mechanics, rewards, and governance

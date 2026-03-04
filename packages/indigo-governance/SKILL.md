@@ -21,3 +21,8 @@ Query Indigo Protocol governance data including protocol parameters, temperature
 - [Protocol Params](sub-skills/protocol-params.md) — Query protocol parameters
 - [Polls](sub-skills/polls.md) — Temperature checks and governance polls
 - [Sync Status](sub-skills/sync-status.md) — Chain synchronization status
+
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [Governance Concepts](references/concepts.md) — Voting process, protocol parameters, and sync status

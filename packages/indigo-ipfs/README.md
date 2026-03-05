@@ -17,6 +17,13 @@ IPFS and Collector skill package for Indigo Protocol on Cardano.
 | [IPFS Storage](sub-skills/ipfs-storage.md) | Store and retrieve data on IPFS |
 | [Collector](sub-skills/collector.md) | Query collector UTXOs for fee distribution |
 
+## References
+
+| Reference | Description |
+|-----------|-------------|
+| [MCP Tools](references/mcp-tools.md) | Detailed tool parameters and return types |
+| [Concepts](references/concepts.md) | IPFS content addressing and collector fee distribution |
+
 ## Installation
 
 ```bash

@@ -32,6 +32,11 @@ Requires the Indigo MCP server:
 }
 ```
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [DEX Concepts](references/concepts.md) — SteelSwap, Iris, Blockfrost, swap routing
+
 ## License
 
 MIT — 3rd Eye Labs

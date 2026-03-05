@@ -20,6 +20,11 @@ Skill for interacting with decentralized exchanges on Cardano through the Indigo
 - [Iris Pools](sub-skills/iris-pools.md) — Liquidity pool data from Iris
 - [Balances](sub-skills/balances.md) — Wallet balances via Blockfrost
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
+- [DEX Concepts](references/concepts.md) — SteelSwap, Iris, Blockfrost, price impact, routing
+
 ## Example Prompts
 
 - "What tokens are available to swap on SteelSwap?"

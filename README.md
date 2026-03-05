@@ -137,4 +137,4 @@ marketplace.json    # skills.sh marketplace listing
 
 ## License
 
-MIT — 3rd Eye Labs
+MIT — Indigo Protocol

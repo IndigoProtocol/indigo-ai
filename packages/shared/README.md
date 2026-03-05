@@ -46,4 +46,4 @@ const output = formatCDPHealth(discordAdapter, {
 
 ## License
 
-MIT — 3rd Eye Labs
+MIT — Indigo Protocol

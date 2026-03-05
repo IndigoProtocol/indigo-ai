@@ -43,4 +43,4 @@ Requires the Indigo MCP server:
 
 ## License
 
-MIT — 3rd Eye Labs
+MIT — Indigo Protocol

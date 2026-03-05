@@ -101,4 +101,4 @@ npm run build
 
 ## License
 
-MIT — 3rd Eye Labs
+MIT — Indigo Protocol

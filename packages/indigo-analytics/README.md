@@ -33,6 +33,11 @@ Requires the Indigo MCP server:
 }
 ```
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [Analytics Concepts](references/concepts.md) — TVL, APR/APY, pool types
+
 ## License
 
 MIT — 3rd Eye Labs

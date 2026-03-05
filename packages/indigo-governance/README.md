@@ -32,6 +32,11 @@ Requires the Indigo MCP server:
 }
 ```
 
+## References
+
+- [MCP Tools Reference](references/mcp-tools.md) — full parameter and return type documentation
+- [Governance Concepts](references/concepts.md) — voting process, parameters, sync
+
 ## License
 
 MIT — 3rd Eye Labs

@@ -28,13 +28,12 @@ npx skills add IndigoProtocol/indigo-ai
 
 ## Packages
 
-| Package | Description | Skills |
-|---------|-------------|--------|
-| [`@indigoprotocol/indigo-defi`](packages/plugins/indigo-defi) | DeFi operations — CDPs, stability pools, staking, redemptions | 4 skills, 37 MCP tools |
-| [`@indigoprotocol/indigo-data`](packages/plugins/indigo-data) | Data & analytics — prices, TVL, governance, DEX, oracle, IPFS | 6 skills, 23 MCP tools |
-| [`@indigoprotocol/openclaw-indigo`](packages/plugins/openclaw-indigo) | OpenClaw plugin — Telegram, Discord, Slack integration | commands, alerts, formatters |
-| [`@indigoprotocol/indigo-skills`](packages/indigo-skills) | CLI installer — delegates to `npx skills add` | — |
-| [`@indigoprotocol/shared`](packages/shared) | Shared utilities | — |
+| Package | Description | Skills | Downloads |
+|---------|-------------|--------|-----------|
+| [`@indigoprotocol/indigo-defi`](packages/plugins/indigo-defi) | DeFi operations — CDPs, stability pools, staking, redemptions | 4 skills, 37 MCP tools | [![npm](https://img.shields.io/npm/dm/@indigoprotocol/indigo-defi?label=npm)](https://www.npmjs.com/package/@indigoprotocol/indigo-defi) |
+| [`@indigoprotocol/indigo-data`](packages/plugins/indigo-data) | Data & analytics — prices, TVL, governance, DEX, oracle, IPFS | 6 skills, 23 MCP tools | [![npm](https://img.shields.io/npm/dm/@indigoprotocol/indigo-data?label=npm)](https://www.npmjs.com/package/@indigoprotocol/indigo-data) |
+| [`@indigoprotocol/openclaw-indigo`](packages/plugins/openclaw-indigo) | OpenClaw plugin — Telegram, Discord, Slack integration | commands, alerts, formatters | [![npm](https://img.shields.io/npm/dm/@indigoprotocol/openclaw-indigo?label=npm)](https://www.npmjs.com/package/@indigoprotocol/openclaw-indigo) |
+| [`@indigoprotocol/indigo-skills`](packages/indigo-skills) | CLI installer — delegates to `npx skills add` | — | [![npm](https://img.shields.io/npm/dm/@indigoprotocol/indigo-skills?label=npm)](https://www.npmjs.com/package/@indigoprotocol/indigo-skills) |
 
 ## Installation
 

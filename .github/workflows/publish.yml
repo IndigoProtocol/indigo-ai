@@ -1,9 +1,8 @@
 name: Publish Packages
 
 on:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
 
 jobs:
   publish:
@@ -18,8 +17,32 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run build --workspaces --if-present
-
-      - run: npm publish --workspaces --access public
+      - name: Publish @indigoprotocol/shared
+        run: npm publish --workspace=@indigoprotocol/shared --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true
+
+      - name: Publish @indigoprotocol/indigo-defi
+        run: npm publish --workspace=@indigoprotocol/indigo-defi --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true
+
+      - name: Publish @indigoprotocol/indigo-data
+        run: npm publish --workspace=@indigoprotocol/indigo-data --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true
+
+      - name: Publish @indigoprotocol/openclaw-indigo
+        run: npm publish --workspace=@indigoprotocol/openclaw-indigo --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true
+
+      - name: Publish @indigoprotocol/indigo-skills
+        run: npm publish --workspace=@indigoprotocol/indigo-skills --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        continue-on-error: true

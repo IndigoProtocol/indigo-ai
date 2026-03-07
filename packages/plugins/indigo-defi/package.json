@@ -1,0 +1,14 @@
+{
+  "name": "@indigoprotocol/indigo-defi",
+  "version": "0.1.0",
+  "description": "DeFi skills for Indigo Protocol — CDP management, stability pools, staking, and redemptions on Cardano",
+  "keywords": ["indigo", "defi", "cdp", "staking", "stability", "redemption", "cardano", "skills"],
+  "type": "module",
+  "files": ["skills", "openclaw.plugin.json", "CLAUDE.md", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/indigo-ai.git",
+    "directory": "packages/plugins/indigo-defi"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "indigo-defi",
+  "displayName": "Indigo DeFi",
+  "description": "DeFi skills for the Indigo Protocol — CDPs, stability pools, staking, and redemptions",
+  "version": "0.1.0",
+  "config": {
+    "walletAddress": {
+      "type": "string",
+      "description": "Cardano wallet address (bech32)",
+      "required": false
+    }
+  },
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@indigoprotocol/indigo-data",
+  "version": "0.1.0",
+  "description": "Data and analytics skills for Indigo Protocol — prices, TVL, governance, DEX, oracle, and IPFS on Cardano",
+  "keywords": ["indigo", "analytics", "prices", "governance", "dex", "oracle", "ipfs", "cardano", "skills"],
+  "type": "module",
+  "files": ["skills", "openclaw.plugin.json", "CLAUDE.md", "README.md"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IndigoProtocol/indigo-ai.git",
+    "directory": "packages/plugins/indigo-data"
+  }
+}

@@ -4,7 +4,17 @@
   "private": true,
   "description": "Indigo AI Skills monorepo",
   "workspaces": [
-    "packages/*"
+    "packages/shared",
+    "packages/plugins/*",
+    "packages/indigo-skills"
   ],
+  "scripts": {
+    "publish:shared": "npm publish --workspace=@indigoprotocol/shared --access=public",
+    "publish:defi": "npm publish --workspace=@indigoprotocol/indigo-defi --access=public",
+    "publish:data": "npm publish --workspace=@indigoprotocol/indigo-data --access=public",
+    "publish:openclaw": "npm publish --workspace=@indigoprotocol/openclaw-indigo --access=public",
+    "publish:skills": "npm publish --workspace=@indigoprotocol/indigo-skills --access=public",
+    "publish:all": "npm run publish:shared && npm run publish:defi && npm run publish:data && npm run publish:openclaw && npm run publish:skills"
+  },
   "license": "MIT"
 }

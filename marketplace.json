@@ -1,10 +1,34 @@
 {
-  "name": "indigo-ai",
-  "displayName": "Indigo AI Skills",
-  "description": "AI skills for the Indigo Protocol on Cardano — manage CDPs, stability pools, staking, and DeFi operations.",
-  "author": "Indigo Protocol",
-  "repository": "https://github.com/3rdEyeLabs/indigo-ai",
-  "license": "MIT",
-  "categories": ["defi", "cardano"],
-  "tags": ["indigo", "cardano", "defi", "cdp", "staking"]
+  "owner": "IndigoProtocol",
+  "plugins": [
+    {
+      "name": "indigo-defi",
+      "package": "@indigoprotocol/indigo-defi",
+      "description": "DeFi skills for Indigo Protocol — CDPs, stability pools, staking, and redemptions",
+      "skills": [
+        "packages/plugins/indigo-defi/skills/indigo-cdp/SKILL.md",
+        "packages/plugins/indigo-defi/skills/indigo-stability/SKILL.md",
+        "packages/plugins/indigo-defi/skills/indigo-staking/SKILL.md",
+        "packages/plugins/indigo-defi/skills/indigo-redemption/SKILL.md"
+      ]
+    },
+    {
+      "name": "indigo-data",
+      "package": "@indigoprotocol/indigo-data",
+      "description": "Data and analytics skills for Indigo Protocol — prices, TVL, governance, DEX, oracle, and IPFS",
+      "skills": [
+        "packages/plugins/indigo-data/skills/indigo-assets/SKILL.md",
+        "packages/plugins/indigo-data/skills/indigo-analytics/SKILL.md",
+        "packages/plugins/indigo-data/skills/indigo-governance/SKILL.md",
+        "packages/plugins/indigo-data/skills/indigo-dex/SKILL.md",
+        "packages/plugins/indigo-data/skills/indigo-oracle/SKILL.md",
+        "packages/plugins/indigo-data/skills/indigo-ipfs/SKILL.md"
+      ]
+    },
+    {
+      "name": "openclaw-indigo",
+      "package": "@indigoprotocol/openclaw-indigo",
+      "description": "Indigo Protocol integration for OpenClaw — CDP management, price alerts, and portfolio tracking"
+    }
+  ]
 }

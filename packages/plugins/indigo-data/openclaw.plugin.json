@@ -1,0 +1,19 @@
+{
+  "name": "indigo-data",
+  "displayName": "Indigo Data",
+  "description": "Data and analytics skills for the Indigo Protocol — prices, TVL, governance, DEX, oracle, and IPFS",
+  "version": "0.1.0",
+  "config": {
+    "walletAddress": {
+      "type": "string",
+      "description": "Cardano wallet address (bech32) for balance queries",
+      "required": false
+    }
+  },
+  "mcpServers": {
+    "indigo": {
+      "command": "npx",
+      "args": ["@indigoprotocol/indigo-mcp"]
+    }
+  }
+}

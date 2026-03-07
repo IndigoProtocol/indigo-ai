@@ -3,19 +3,19 @@
   "displayName": "Indigo AI Skills",
   "description": "AI skills for the Indigo Protocol on Cardano",
   "author": "Indigo Protocol",
-  "repository": "https://github.com/3rdEyeLabs/indigo-ai",
+  "repository": "https://github.com/IndigoProtocol/indigo-ai",
   "license": "MIT",
   "skills": [
-    "./packages/indigo-cdp/SKILL.md",
-    "./packages/indigo-stability/SKILL.md",
-    "./packages/indigo-staking/SKILL.md",
-    "./packages/indigo-assets/SKILL.md",
-    "./packages/indigo-analytics/SKILL.md",
-    "./packages/indigo-governance/SKILL.md",
-    "./packages/indigo-redemption/SKILL.md",
-    "./packages/indigo-dex/SKILL.md",
-    "./packages/indigo-oracle/SKILL.md",
-    "./packages/indigo-ipfs/SKILL.md",
-    "./packages/openclaw-indigo/SKILL.md"
+    "./packages/plugins/indigo-defi/skills/indigo-cdp/SKILL.md",
+    "./packages/plugins/indigo-defi/skills/indigo-stability/SKILL.md",
+    "./packages/plugins/indigo-defi/skills/indigo-staking/SKILL.md",
+    "./packages/plugins/indigo-defi/skills/indigo-redemption/SKILL.md",
+    "./packages/plugins/indigo-data/skills/indigo-assets/SKILL.md",
+    "./packages/plugins/indigo-data/skills/indigo-analytics/SKILL.md",
+    "./packages/plugins/indigo-data/skills/indigo-governance/SKILL.md",
+    "./packages/plugins/indigo-data/skills/indigo-dex/SKILL.md",
+    "./packages/plugins/indigo-data/skills/indigo-oracle/SKILL.md",
+    "./packages/plugins/indigo-data/skills/indigo-ipfs/SKILL.md",
+    "./packages/plugins/openclaw-indigo/SKILL.md"
   ]
 }

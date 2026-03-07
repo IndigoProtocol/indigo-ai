@@ -1,6 +1,11 @@
 ---
 name: openclaw-indigo
-description: Indigo Protocol integration for OpenClaw with CDP management, price alerts, and portfolio tracking.
+description: "Indigo Protocol integration for OpenClaw with CDP management, price alerts, and portfolio tracking."
+allowed-tools: Read, Glob, Grep
+license: MIT
+metadata:
+  author: indigoprotocol
+  version: '0.1.0'
 ---
 
 # OpenClaw Indigo Plugin

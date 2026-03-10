@@ -9,3 +9,4 @@ export {
   type SlackBlock,
 } from "./slack.js";
 export { cliAdapter } from "./cli.js";
+export { markdownAdapter } from "./markdown.js";

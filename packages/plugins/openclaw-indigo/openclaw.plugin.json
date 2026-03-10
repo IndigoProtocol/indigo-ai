@@ -1,35 +1,20 @@
 {
   "id": "openclaw-indigo",
-  "name": "openclaw-indigo",
-  "displayName": "OpenClaw Indigo Plugin",
-  "description": "Full Indigo Protocol integration for OpenClaw - manage CDPs, staking, and more from Telegram, Discord, and Slack",
-  "version": "0.1.4",
-  "entry": "src/index.ts",
   "configSchema": {
     "type": "object",
     "properties": {
-      "blockfrostApiKey": {
+      "indexerUrl": {
         "type": "string",
-        "description": "Blockfrost API key for Cardano mainnet"
+        "description": "Indigo indexer REST API base URL"
       },
       "walletAddress": {
         "type": "string",
-        "description": "Cardano wallet address to monitor"
+        "description": "Default Cardano wallet address"
       }
     }
   },
   "uiHints": {
-    "blockfrostApiKey": { "label": "Blockfrost API Key", "sensitive": true },
+    "indexerUrl": { "label": "Indexer URL", "placeholder": "https://analytics.indigoprotocol.io/api/v1" },
     "walletAddress": { "label": "Wallet Address", "placeholder": "addr1..." }
-  },
-  "skills": [
-    "@indigoprotocol/indigo-defi",
-    "@indigoprotocol/indigo-data"
-  ],
-  "mcpServers": {
-    "indigo": {
-      "command": "npx",
-      "args": ["@indigoprotocol/indigo-mcp"]
-    }
   }
 }

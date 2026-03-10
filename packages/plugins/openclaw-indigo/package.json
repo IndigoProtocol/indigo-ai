@@ -1,11 +1,11 @@
 {
   "name": "@indigoprotocol/openclaw-indigo",
-  "version": "0.1.4",
-  "description": "OpenClaw plugin for Indigo Protocol",
-  "keywords": ["indigo", "openclaw", "plugin", "cardano", "slack", "telegram", "discord"],
+  "version": "0.2.0",
+  "description": "OpenClaw plugin for Indigo Protocol — read-only tools and commands",
+  "keywords": ["indigo", "openclaw", "plugin", "cardano", "defi"],
   "type": "module",
   "main": "src/index.ts",
-  "files": ["SKILL.md", "src", "README.md", "openclaw.plugin.json"],
+  "files": ["src", "README.md", "openclaw.plugin.json"],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,8 +13,18 @@
     "directory": "packages/plugins/openclaw-indigo"
   },
   "openclaw": {
-    "extensions": [
-      "./src/index.ts"
-    ]
+    "extensions": ["./src/index.ts"]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@indigoprotocol/shared": "^0.1.0",
+    "@sinclair/typebox": "^0.34.0",
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
   }
 }

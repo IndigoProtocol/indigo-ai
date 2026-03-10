@@ -1,8 +1,9 @@
 {
+  "id": "openclaw-indigo",
   "name": "openclaw-indigo",
   "displayName": "OpenClaw Indigo Plugin",
   "description": "Full Indigo Protocol integration for OpenClaw - manage CDPs, staking, and more from Telegram, Discord, and Slack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "entry": "src/index.ts",
   "skills": [
     "@indigoprotocol/indigo-defi",

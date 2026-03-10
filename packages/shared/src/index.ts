@@ -20,6 +20,7 @@ export {
   createSlackFields,
   createSlackDivider,
   cliAdapter,
+  markdownAdapter,
 } from "./adapters/index.js";
 
 export {

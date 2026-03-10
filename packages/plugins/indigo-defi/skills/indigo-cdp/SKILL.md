@@ -29,7 +29,7 @@ Manage Collateralized Debt Positions (CDPs) on the Indigo Protocol.
 - `redeem_cdp` — Redeem iAssets against a CDP
 - `freeze_cdp` — Freeze a CDP
 - `merge_cdps` — Merge multiple CDPs into one
-- `leverage_cdp` — Open a leveraged CDP position via LRP
+- `leverage_cdp` — Open a leveraged CDP position via ROB
 - `get_all_cdps` — List all CDPs
 - `get_cdps_by_owner` — List CDPs by owner
 - `get_cdps_by_address` — List CDPs by address
@@ -40,7 +40,7 @@ Manage Collateralized Debt Positions (CDPs) on the Indigo Protocol.
 - [Mint & Burn](sub-skills/cdp-mint-burn.md) — Mint and burn iAssets
 - [CDP Health](sub-skills/cdp-health.md) — Analyze health, liquidation risk
 - [Liquidation](sub-skills/cdp-liquidation.md) — Liquidate, redeem, freeze, merge
-- [Leverage](sub-skills/cdp-leverage.md) — Leveraged CDP via LRP
+- [Leverage](sub-skills/cdp-leverage.md) — Leveraged CDP via ROB
 
 ## References
 

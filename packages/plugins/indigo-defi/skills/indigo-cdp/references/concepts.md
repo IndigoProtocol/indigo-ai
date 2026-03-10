@@ -60,7 +60,7 @@ CDP owners can merge multiple CDPs of the **same iAsset type** into a single CDP
 
 ## Leverage
 
-Leveraged CDPs use the LRP (Limited Redemption Protocol) mechanism to amplify exposure:
+Leveraged CDPs use the ROB (Redemption Order Book) mechanism to amplify exposure:
 
 1. Deposit ADA collateral
 2. Mint iAssets against the collateral

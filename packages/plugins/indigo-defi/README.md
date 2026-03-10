@@ -9,7 +9,7 @@ DeFi skills for the [Indigo Protocol](https://indigoprotocol.io) on Cardano.
 | indigo-cdp | Manage Collateralized Debt Positions (CDPs) |
 | indigo-stability | Manage Stability Pool positions |
 | indigo-staking | Manage INDY staking positions |
-| indigo-redemption | Manage redemptions and LRP positions |
+| indigo-redemption | Manage redemptions and ROB positions |
 
 ## Install
 

@@ -1,6 +1,6 @@
 ---
 name: indigo-redemption
-description: "Manage redemptions and Limited Redemption Protocol (LRP) positions on Indigo Protocol."
+description: "Manage redemptions and Redemption Order Book (ROB) positions on Indigo Protocol."
 allowed-tools: Read, Glob, Grep
 license: MIT
 metadata:
@@ -8,9 +8,9 @@ metadata:
   version: '0.1.0'
 ---
 
-# Indigo Redemption & LRP
+# Indigo Redemption & ROB
 
-Skill for managing redemptions and Limited Redemption Protocol (LRP) positions on Indigo Protocol.
+Skill for managing redemptions and Redemption Order Book (ROB) positions on Indigo Protocol.
 
 ## Prerequisites
 
@@ -27,22 +27,22 @@ npx @indigoprotocol/indigo-mcp
 
 | Tool | Description |
 |------|-------------|
-| `get_order_book` | Get open LRP positions from the order book, optionally filtered by asset or owners |
+| `get_order_book` | Get open ROB positions from the order book, optionally filtered by asset or owners |
 | `get_redemption_orders` | Get redemption orders, optionally filtered by timestamp or price range |
 | `get_redemption_queue` | Get aggregated redemption queue for a specific iAsset, sorted by max price ascending |
-| `open_lrp` | Open a new LRP position with ADA and a max price limit |
-| `cancel_lrp` | Cancel an existing LRP position |
-| `adjust_lrp` | Adjust ADA amount in an LRP position; optionally update max price |
-| `claim_lrp` | Claim received iAssets from an LRP position |
-| `redeem_lrp` | Redeem iAssets against one or more LRP positions |
+| `open_rob` | Open a new ROB position with ADA and a max price limit |
+| `cancel_rob` | Cancel an existing ROB position |
+| `adjust_rob` | Adjust ADA amount in an ROB position; optionally update max price |
+| `claim_rob` | Claim received iAssets from an ROB position |
+| `redeem_rob` | Redeem iAssets against one or more ROB positions |
 
 ## Sub-skills
 
-- [Order Book](sub-skills/order-book.md) — Query LRP order book and redemption orders
+- [Order Book](sub-skills/order-book.md) — Query ROB order book and redemption orders
 - [Redemption Queue](sub-skills/redemption-queue.md) — Aggregated redemption queue per iAsset
-- [LRP Management](sub-skills/lrp-manage.md) — Open, cancel, adjust, claim, and redeem LRP positions
+- [ROB Management](sub-skills/rob-manage.md) — Open, cancel, adjust, claim, and redeem ROB positions
 
 ## References
 
 - [MCP Tools Reference](references/mcp-tools.md) — Detailed tool parameters and return types
-- [Redemption Concepts](references/concepts.md) — LRP mechanics, order book, and redemption queue
+- [Redemption Concepts](references/concepts.md) — ROB mechanics, order book, and redemption queue

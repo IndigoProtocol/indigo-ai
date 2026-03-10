@@ -1,12 +1,12 @@
 # Leveraged CDP
 
-Open leveraged CDP positions using Liquidation Redemption Positions (LRP).
+Open leveraged CDP positions using Redemption Order Book (ROB).
 
 ## Tools
 
 ### leverage_cdp
 
-Open a leveraged CDP position. Uses LRP mechanism to amplify exposure to an iAsset with a single transaction.
+Open a leveraged CDP position. Uses ROB mechanism to amplify exposure to an iAsset with a single transaction.
 
 **Parameters:**
 
@@ -27,7 +27,7 @@ Use leverage to amplify exposure to iUSD with a single transaction instead of ma
 
 **Workflow:**
 1. Call `leverage_cdp({ address: "addr1qx...abc", asset: "iUSD", collateralAmount: "5000000000", leverageMultiplier: 2 })`
-2. The protocol uses LRP to: open CDP → mint iUSD → sell for ADA → deposit back as collateral → repeat
+2. The protocol uses ROB to: open CDP → mint iUSD → sell for ADA → deposit back as collateral → repeat
 3. Returns unsigned transaction for signing
 
 **Sample response:**

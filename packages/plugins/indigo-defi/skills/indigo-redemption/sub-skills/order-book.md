@@ -1,6 +1,6 @@
 # Order Book
 
-Query the LRP order book and historical redemption orders on Indigo Protocol.
+Query the ROB order book and historical redemption orders on Indigo Protocol.
 
 ## Tools
 
@@ -15,7 +15,7 @@ Get open limited redemption positions from the order book.
 | `asset` | `iUSD` \| `iBTC` \| `iETH` \| `iSOL` | No | Filter by iAsset |
 | `owners` | `string[]` | No | Filter by owner addresses |
 
-**Returns:** Array of LRP position objects with owner, ADA amount, max price, and fill status.
+**Returns:** Array of ROB position objects with owner, ADA amount, max price, and fill status.
 
 ### get_redemption_orders
 
@@ -32,20 +32,20 @@ Get redemption orders, optionally filtered by timestamp or price range.
 
 ## Examples
 
-### View the iUSD LRP order book
+### View the iUSD ROB order book
 
-See all open LRP positions for iUSD to assess available liquidity.
+See all open ROB positions for iUSD to assess available liquidity.
 
-**Prompt:** "Show me all open LRP positions for iUSD"
+**Prompt:** "Show me all open ROB positions for iUSD"
 
 **Workflow:**
-1. Call `get_order_book({ asset: "iUSD" })` to get all iUSD LRP positions
+1. Call `get_order_book({ asset: "iUSD" })` to get all iUSD ROB positions
 2. Sort by max price ascending to show cheapest liquidity first
 3. Present total ADA available at each price level
 
 **Sample response:**
 ```
-iUSD LRP Order Book (12 positions):
+iUSD ROB Order Book (12 positions):
   Max Price 1.00: 5,000 ADA (2 positions)
   Max Price 1.02: 12,300 ADA (4 positions)
   Max Price 1.05: 8,700 ADA (3 positions)
@@ -53,11 +53,11 @@ iUSD LRP Order Book (12 positions):
 Total available: 41,200 ADA
 ```
 
-### Check your own LRP positions
+### Check your own ROB positions
 
-View your active LRP positions to monitor fill status and manage them.
+View your active ROB positions to monitor fill status and manage them.
 
-**Prompt:** "Show me my LRP positions"
+**Prompt:** "Show me my ROB positions"
 
 **Workflow:**
 1. Call `get_order_book({ owners: ["addr1qx...abc"] })` to filter by your address
@@ -65,7 +65,7 @@ View your active LRP positions to monitor fill status and manage them.
 
 **Sample response:**
 ```
-Your LRP Positions:
+Your ROB Positions:
 
 1. iUSD position — 2,000 ADA at max 1.05
    Status: Partially filled (40%)
@@ -96,8 +96,8 @@ Recent Redemption Orders:
 
 ## Example Prompts
 
-- "Show me all open LRP positions for iUSD"
-- "What's the current LRP order book depth for iBTC?"
-- "Show me my LRP positions"
+- "Show me all open ROB positions for iUSD"
+- "What's the current ROB order book depth for iBTC?"
+- "Show me my ROB positions"
 - "List recent redemption orders"
 - "How much ADA liquidity is available in the iUSD order book?"

@@ -81,7 +81,7 @@ This works with Claude Code (`.claude/config.json`), Cursor (`.cursor/mcp.json`)
 | [indigo-cdp](packages/plugins/indigo-defi/skills/indigo-cdp/SKILL.md) | CDP management — open, close, deposit, withdraw, mint, burn | `open_cdp`, `close_cdp`, `analyze_cdp_health`, `leverage_cdp` |
 | [indigo-stability](packages/plugins/indigo-defi/skills/indigo-stability/SKILL.md) | Stability pool accounts | `create_sp_account`, `adjust_sp_account`, `close_sp_account` |
 | [indigo-staking](packages/plugins/indigo-defi/skills/indigo-staking/SKILL.md) | INDY staking positions | `open_staking_position`, `adjust_staking_position`, `distribute_staking_rewards` |
-| [indigo-redemption](packages/plugins/indigo-defi/skills/indigo-redemption/SKILL.md) | Redemption & LRP positions | `open_lrp`, `adjust_lrp`, `redeem_lrp`, `get_order_book` |
+| [indigo-redemption](packages/plugins/indigo-defi/skills/indigo-redemption/SKILL.md) | Redemption & ROB positions | `open_rob`, `adjust_rob`, `redeem_rob`, `get_order_book` |
 
 ### indigo-data
 

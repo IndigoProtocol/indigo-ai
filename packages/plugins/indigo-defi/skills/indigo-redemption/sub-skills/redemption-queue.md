@@ -63,11 +63,11 @@ Redemption Queue Comparison:
 iBTC has the highest redemption pressure at 84,200 ADA.
 ```
 
-### Assess fill probability for an LRP position
+### Assess fill probability for an ROB position
 
-Use the queue data to estimate how quickly an LRP position might be filled.
+Use the queue data to estimate how quickly an ROB position might be filled.
 
-**Prompt:** "If I open an LRP at max price 1.05, how much demand is there?"
+**Prompt:** "If I open a ROB at max price 1.05, how much demand is there?"
 
 **Workflow:**
 1. Call `get_redemption_queue({ asset: "iUSD" })` to see queue depth

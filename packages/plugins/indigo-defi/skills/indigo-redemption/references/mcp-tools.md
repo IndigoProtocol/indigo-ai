@@ -1,19 +1,19 @@
 # Redemption MCP Tools Reference
 
-Detailed reference for all redemption and LRP MCP tools.
+Detailed reference for all redemption and ROB MCP tools.
 
 ## Read Operations
 
 ### get_order_book
 
-Get open LRP positions from the order book.
+Get open ROB positions from the order book.
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `asset` | `"iUSD" \| "iBTC" \| "iETH" \| "iSOL"` | No | Filter by iAsset |
 | `owners` | `string[]` | No | Filter by owner addresses |
 
-**Returns:** Array of LRP position objects with owner, ADA deposited, max price, fill status, and UTxO reference.
+**Returns:** Array of ROB position objects with owner, ADA deposited, max price, fill status, and UTxO reference.
 
 ---
 
@@ -44,7 +44,7 @@ Get the aggregated redemption queue for a specific iAsset, sorted by max price a
 
 All write operations return `{ tx: string }` — unsigned CBOR transaction hex.
 
-### open_lrp
+### open_rob
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
@@ -55,44 +55,44 @@ All write operations return `{ tx: string }` — unsigned CBOR transaction hex.
 
 ---
 
-### cancel_lrp
+### cancel_rob
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `address` | `string` | Yes | User bech32 address |
-| `lrpTxHash` | `string` | Yes | LRP UTxO tx hash |
-| `lrpOutputIndex` | `number` | Yes | LRP UTxO output index |
+| `robTxHash` | `string` | Yes | ROB UTxO tx hash |
+| `robOutputIndex` | `number` | Yes | ROB UTxO output index |
 
 ---
 
-### adjust_lrp
+### adjust_rob
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `address` | `string` | Yes | User bech32 address |
-| `lrpTxHash` | `string` | Yes | LRP UTxO tx hash |
-| `lrpOutputIndex` | `number` | Yes | LRP UTxO output index |
+| `robTxHash` | `string` | Yes | ROB UTxO tx hash |
+| `robOutputIndex` | `number` | Yes | ROB UTxO output index |
 | `lovelacesAdjustAmount` | `string` | Yes | Adjustment (positive = add, negative = remove) |
 | `newMaxPrice` | `string` | No | Updated max price |
 
 ---
 
-### claim_lrp
+### claim_rob
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `address` | `string` | Yes | User bech32 address |
-| `lrpTxHash` | `string` | Yes | LRP UTxO tx hash |
-| `lrpOutputIndex` | `number` | Yes | LRP UTxO output index |
+| `robTxHash` | `string` | Yes | ROB UTxO tx hash |
+| `robOutputIndex` | `number` | Yes | ROB UTxO output index |
 
 ---
 
-### redeem_lrp
+### redeem_rob
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | `address` | `string` | Yes | User bech32 address |
-| `redemptionLrps` | `array` | Yes | Array of `{ txHash, outputIndex, iAssetAmount }` |
+| `redemptionRobs` | `array` | Yes | Array of `{ txHash, outputIndex, iAssetAmount }` |
 | `priceOracleTxHash` | `string` | Yes | Price oracle UTxO tx hash |
 | `priceOracleOutputIndex` | `number` | Yes | Price oracle output index |
 | `iassetTxHash` | `string` | Yes | iAsset UTxO tx hash |

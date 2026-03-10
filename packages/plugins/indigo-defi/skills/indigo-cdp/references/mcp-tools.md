@@ -152,7 +152,7 @@ Merge multiple CDPs of the same iAsset into one.
 
 ### leverage_cdp
 
-Open a leveraged CDP via LRP mechanism.
+Open a leveraged CDP via ROB mechanism.
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|

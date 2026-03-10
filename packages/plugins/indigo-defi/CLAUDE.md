@@ -27,7 +27,7 @@ npx @indigoprotocol/indigo-mcp
 | `redeem_cdp` | Redeem iAssets against a CDP |
 | `freeze_cdp` | Freeze a CDP |
 | `merge_cdps` | Merge multiple CDPs into one |
-| `leverage_cdp` | Open a leveraged CDP position via LRP |
+| `leverage_cdp` | Open a leveraged CDP position via ROB |
 | `get_all_cdps` | List all CDPs |
 | `get_cdps_by_owner` | List CDPs by owner |
 | `get_cdps_by_address` | List CDPs by address |
@@ -58,25 +58,25 @@ npx @indigoprotocol/indigo-mcp
 | `close_staking_position` | Close an existing staking position |
 | `distribute_staking_rewards` | Distribute pending staking rewards |
 
-### Redemption & LRP (8 tools)
+### Redemption & ROB (8 tools)
 
 | Tool | Description |
 |------|-------------|
-| `get_order_book` | Get open LRP positions from the order book |
+| `get_order_book` | Get open ROB positions from the order book |
 | `get_redemption_orders` | Get redemption orders |
 | `get_redemption_queue` | Get aggregated redemption queue for a specific iAsset |
-| `open_lrp` | Open a new LRP position |
-| `cancel_lrp` | Cancel an existing LRP position |
-| `adjust_lrp` | Adjust ADA amount in an LRP position |
-| `claim_lrp` | Claim received iAssets from an LRP position |
-| `redeem_lrp` | Redeem iAssets against LRP positions |
+| `open_rob` | Open a new ROB position |
+| `cancel_rob` | Cancel an existing ROB position |
+| `adjust_rob` | Adjust ADA amount in an ROB position |
+| `claim_rob` | Claim received iAssets from an ROB position |
+| `redeem_rob` | Redeem iAssets against ROB positions |
 
 ## Skills
 
 - `skills/indigo-cdp/SKILL.md` — CDP & loan management
 - `skills/indigo-stability/SKILL.md` — Stability pool operations
 - `skills/indigo-staking/SKILL.md` — INDY staking positions
-- `skills/indigo-redemption/SKILL.md` — Redemption & LRP management
+- `skills/indigo-redemption/SKILL.md` — Redemption & ROB management
 
 ## Important Notes
 

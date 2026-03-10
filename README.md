@@ -13,6 +13,11 @@
 ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ```
 
+[![npm indigo-skills](https://img.shields.io/npm/dm/@indigoprotocol/indigo-skills?label=indigo-skills)](https://www.npmjs.com/package/@indigoprotocol/indigo-skills)
+[![npm openclaw-indigo](https://img.shields.io/npm/dm/@indigoprotocol/openclaw-indigo?label=openclaw-indigo)](https://www.npmjs.com/package/@indigoprotocol/openclaw-indigo)
+[![npm indigo-defi](https://img.shields.io/npm/dm/@indigoprotocol/indigo-defi?label=indigo-defi)](https://www.npmjs.com/package/@indigoprotocol/indigo-defi)
+[![npm indigo-data](https://img.shields.io/npm/dm/@indigoprotocol/indigo-data?label=indigo-data)](https://www.npmjs.com/package/@indigoprotocol/indigo-data)
+
 # Indigo AI Skills
 
 AI skills for the [Indigo Protocol](https://indigoprotocol.io) on Cardano — manage CDPs, stability pools, staking, and DeFi operations through AI agents.

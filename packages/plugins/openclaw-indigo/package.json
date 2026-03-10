@@ -1,15 +1,20 @@
 {
   "name": "@indigoprotocol/openclaw-indigo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenClaw plugin for Indigo Protocol",
   "keywords": ["indigo", "openclaw", "plugin", "cardano", "slack", "telegram", "discord"],
   "type": "module",
   "main": "src/index.ts",
-  "files": ["SKILL.md", "src", "README.md"],
+  "files": ["SKILL.md", "src", "README.md", "openclaw.plugin.json"],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/IndigoProtocol/indigo-ai.git",
     "directory": "packages/plugins/openclaw-indigo"
+  },
+  "openclaw": {
+    "extensions": [
+      "./src/index.ts"
+    ]
   }
 }

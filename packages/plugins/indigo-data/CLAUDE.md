@@ -39,7 +39,6 @@ npx @indigoprotocol/indigo-mcp
 | `get_protocol_params` | Get current Indigo Protocol parameters |
 | `get_temperature_checks` | Get active governance temperature checks |
 | `get_polls` | Get governance polls and voting data |
-| `get_sync_status` | Get the current chain synchronization status |
 
 ### DEX Integration (4 tools)
 
@@ -54,8 +53,6 @@ npx @indigoprotocol/indigo-mcp
 
 | Tool | Description |
 |------|-------------|
-| `feed_interest_oracle` | Feed a new interest rate to the interest oracle |
-| `start_interest_oracle` | Initialize a new interest oracle |
 
 ### IPFS & Collector (3 tools)
 
@@ -71,11 +68,9 @@ npx @indigoprotocol/indigo-mcp
 - `skills/indigo-analytics/SKILL.md` — TVL, stats, APR, DEX yields
 - `skills/indigo-governance/SKILL.md` — Protocol params, polls, sync status
 - `skills/indigo-dex/SKILL.md` — SteelSwap, Iris pools, wallet balances
-- `skills/indigo-oracle/SKILL.md` — Interest oracle operations
 - `skills/indigo-ipfs/SKILL.md` — IPFS storage and collector UTXOs
 
 ## Important Notes
 
 - Most tools in this package are read-only queries and do not require wallet signing.
-- Oracle tools (`feed_interest_oracle`, `start_interest_oracle`) are restricted to designated operators.
 - `store_on_ipfs` writes data to IPFS but does not require a Cardano transaction.

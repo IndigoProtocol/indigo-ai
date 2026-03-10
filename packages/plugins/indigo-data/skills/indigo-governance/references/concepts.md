@@ -37,13 +37,3 @@ Key configurable parameters that governance can change:
 | Governance | Proposal threshold, voting period, quorum requirement |
 | Rewards | INDY emission rates, stability pool incentives |
 | Oracle | Feed frequency, bias time, operator settings |
-
-## Chain Sync Status
-
-The Indigo indexer processes Cardano blocks to maintain an up-to-date view of protocol state. When the indexer falls behind the chain tip:
-
-- Query results may show stale data
-- Transaction confirmations may be delayed
-- The sync percentage indicates how far behind the indexer is
-
-A fully synced indexer (100%) means all data is current.

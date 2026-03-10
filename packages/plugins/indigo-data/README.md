@@ -10,7 +10,6 @@ Data and analytics skills for the [Indigo Protocol](https://indigoprotocol.io) o
 | indigo-analytics | Protocol TVL, statistics, APR rewards, DEX yields |
 | indigo-governance | Protocol parameters, polls, and sync status |
 | indigo-dex | SteelSwap tokens/estimates, Iris pools, wallet balances |
-| indigo-oracle | Interest oracle operations |
 | indigo-ipfs | IPFS storage and collector UTXOs |
 
 ## Install

@@ -91,7 +91,6 @@ This works with Claude Code (`.claude/config.json`), Cursor (`.cursor/mcp.json`)
 | [indigo-analytics](packages/plugins/indigo-data/skills/indigo-analytics/SKILL.md) | TVL, APR, DEX yields | `get_tvl`, `get_protocol_stats`, `get_apr_rewards`, `get_dex_yields` |
 | [indigo-governance](packages/plugins/indigo-data/skills/indigo-governance/SKILL.md) | Protocol params, polls, sync status | `get_protocol_params`, `get_polls`, `get_temperature_checks` |
 | [indigo-dex](packages/plugins/indigo-data/skills/indigo-dex/SKILL.md) | SteelSwap, Iris pools, balances | `get_steelswap_estimate`, `get_iris_liquidity_pools` |
-| [indigo-oracle](packages/plugins/indigo-data/skills/indigo-oracle/SKILL.md) | Interest oracle | `feed_interest_oracle`, `start_interest_oracle` |
 | [indigo-ipfs](packages/plugins/indigo-data/skills/indigo-ipfs/SKILL.md) | IPFS storage and collector UTXOs | `store_on_ipfs`, `retrieve_from_ipfs`, `get_collector_utxos` |
 
 ## Workspace Structure
@@ -113,7 +112,6 @@ packages/
         indigo-analytics/
         indigo-governance/
         indigo-dex/
-        indigo-oracle/
         indigo-ipfs/
     openclaw-indigo/          # @indigoprotocol/openclaw-indigo
   indigo-skills/              # @indigoprotocol/indigo-skills (CLI installer)
